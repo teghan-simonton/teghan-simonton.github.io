@@ -1,0 +1,233 @@
+
+.hero-image {
+  width: 100%;
+}
+
+.name {
+  margin-top: 0px;
+  padding-top: 35px;
+  color: #c2c0bf;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 1px;
+  font-family: cardo, serif;
+  font-weight: 600;
+  /*font-family:  Bitter;*/
+  background-color: #034354;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+}
+
+a {
+    font-weight: bold;
+}
+
+.subhead {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: none;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #354739;
+  font-family: solano-gothic-pro-mvb, sans-serif;
+  font-size: 30px;
+}
+
+.paper {
+    font-family: cardo, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+  color: #034354;
+  padding-top: 10px;
+}
+
+
+.bi {
+  color: #034354;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 2em;
+}
+
+.bi:hover{
+  color: white;
+  transition: all 0.35s ease-in-out;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+#top {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: black;
+  width: 100%;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 1em;
+  /*background-color: #EBE5DB;*/
+}
+
+.nav-link {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 1em;
+    color: #c2c0bf;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover {
+    transition: all 0.35s ease-in-out;
+    color: white;
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #034354;
+
+}
+
+#nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clips .description {
+  font-size: 16px;
+}
+
+a {
+  color: #354739;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  transition: all 0.35s ease-in-out;
+}
+
+.crop-viz {
+    display: inline-block;
+    padding-top: 20px;
+    width: 50%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.data-viz {
+  display: inline-block;
+  padding-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.img-wrap {
+  min-width: 340px;
+  max-width: 400px;
+}
+
+
+.img-fluid {
+  margin: 0 auto;
+  border: 5px solid #84747A;
+  display: none;
+}
+
+
+.content {
+  background-color: #c2c0bf;
+  color: black;
+  margin: 0 auto
+}
+
+#data-icon {
+    font-size: 0.5em;
+}
+
+
+#edskills {
+  background-color: #354739;
+  /*color: #EBE5DB;*/
+}
+
+.row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.jobtitle {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.organization {
+  font-weight: 400;
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+.education {
+  list-style-type: none;
+}
+
+.skills {
+  list-style-type: square;
+}
+
+@media only screen and (max-width: 992px) {
+
+.row {
+  width: 80%;
+  padding: none;
+}
+
+.bi {
+  font-size: 1.5em;
+  display: inline;
+}
+
+.bi-linkedin {
+  display: inline;
+}
+
+.nav-link {
+  font-size: .8em;
+}
+
+body {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+}
